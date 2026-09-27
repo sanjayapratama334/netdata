@@ -10,3 +10,7 @@
 		rm -f "$@.tmp"; \
 		false; \
 	fi
+git branch -m codespace-improved-disco-q76j7vvr9v5qfxjvr <BRANCH>
+git fetch origin
+git branch -u origin/<BRANCH> <BRANCH>
+git remote set-head origin -a
